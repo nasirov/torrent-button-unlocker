@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "TorrentButtonUnlocker",
+  "version": "1.0",
+  "author": "yasamuro",
+  "developer": {
+    "name": "Yuriy Nasirov",
+    "url": "https://github.com/nasirov"
+  },
+  "description": "Allows you to download torrent on lostfilm.tv if a content blocked in your country. No vpn, only js.",
+  "icons": {
+    "96": "icons/icon-96.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "torrentButtonUnlocker@nasirov.yv",
+      "strict_min_version": "66.0"
+    }
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "jquery-3.4.0.min.js",
+        "unlock.js"
+      ],
+      "matches": [
+        "https://www.lostfilm.tv/series/*/season_*/episode_*"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

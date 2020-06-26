@@ -1,6 +1,6 @@
-# Torrent Button Unlocker
+# LostFilm Torrent Button Unlocker
 
-The addon unlocks torrent button on **[LostFilm.tv](https://www.lostfilm.tv/)**  if a content is blocked in your country.
+The addon unlocks a torrent button on LostFilm site if a content is blocked in your country.
 
 # Link
 

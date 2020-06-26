@@ -1,0 +1,1 @@
+tar.exe -a -c -f torrent-button-unlocker.zip jquery-3.4.0.min.js manifest.json unlock.js

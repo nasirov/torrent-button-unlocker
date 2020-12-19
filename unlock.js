@@ -2,7 +2,6 @@
  * Created by nasirov.yv
  */
 $(document).ready(function () {
-  console.log("TorrentButtonUnlocker");
   unlockTorrentButtonOnConcretizedEpisodePage();
   unlockFullSeasonDownloadTorrentButtonsOnSeasonsPage();
   unlockSingleEpisodesTorrentButtonsOnSeasonsPage();

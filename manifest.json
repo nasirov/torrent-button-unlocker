@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "LostFilm Torrent Button Unlocker",
-  "version": "1.4",
+  "version": "1.5",
   "developer": {
     "name": "Yuriy Nasirov",
     "url": "https://github.com/nasirov/torrent-button-unlocker"
@@ -25,7 +25,9 @@
         "https://www.lostfilm.run/series/*/season*",
         "http://www.lostfilm.run/series/*/season*",
         "https://www.lostfilm.uno/series/*/season*",
-        "http://www.lostfilm.uno/series/*/season*"
+        "http://www.lostfilm.uno/series/*/season*",
+        "https://www.lostfilm.win/series/*/season*",
+        "http://www.lostfilm.win/series/*/season*"
       ],
       "run_at": "document_end"
     }
